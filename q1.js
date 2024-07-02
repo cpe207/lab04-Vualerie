@@ -1,7 +1,7 @@
 function typeChecker(a, b) {
     /* Your code here */
     var str1 = "I LOVE YOU";
-    var str2 = "NOT MATCH";
+    var str2 = "NOT MATCHED";
     if (typeof a == "string" && typeof b == "string")
         return str1;
     if (typeof a == "number" && typeof b == "number")
